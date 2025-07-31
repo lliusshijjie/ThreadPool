@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/C++/ThreadPool-main/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

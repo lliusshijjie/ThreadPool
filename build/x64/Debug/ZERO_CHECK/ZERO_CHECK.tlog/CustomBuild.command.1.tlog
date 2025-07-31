@@ -1,0 +1,10 @@
+^D:\C++\THREADPOOL-MAIN\BUILD\CMAKEFILES\EDB21035821760EF7DE17B6DFFC32E6F\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/C++/ThreadPool-main -BD:/C++/ThreadPool-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/C++/ThreadPool-main/build/ThreadPool.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
