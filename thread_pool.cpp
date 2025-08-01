@@ -22,8 +22,20 @@ ThreadPool::ThreadPool() : initialThreadSize(0), taskSize(0), totalThreadSize(0)
 ThreadPool::~ThreadPool() {
     std::cout << "ThreadPool destructor called. Current thread count: " << threads.size() << std::endl;
     
-    // 设置停止标志
+    // 设置停止标志，停止接受新任务
     isPoolRunning = false;
+    
+    // 等待所有任务执行完成
+    {
+        std::unique_lock<std::mutex> lock(taskQueueMutex);
+        while (taskSize > 0) {
+            std::cout << "Waiting for " << taskSize << " tasks to complete..." << std::endl;
+            lock.unlock();
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+            lock.lock();
+        }
+        std::cout << "All tasks completed." << std::endl;
+    }
     
     // 通知所有等待的线程退出
     notEmpty.notify_all();
@@ -93,6 +105,12 @@ void ThreadPool::setThreadSizeLimit (size_t size) {
 
 // 给线程池提交任务(用户调用该接口，传入任务对象，生产任务)
 std::shared_ptr<Result> ThreadPool::submitTask(std::shared_ptr<Task> task) {
+    // 检查线程池是否还在运行
+    if (!isPoolRunning) {
+        std::cerr << "Task submission failed: thread pool is not running." << std::endl;
+        return std::make_shared<Result>(task, false);
+    }
+    
     auto result = std::make_shared<Result>(task, true);
     task->setResultPtr(result);
     std::unique_lock<std::mutex> lock(taskQueueMutex);
