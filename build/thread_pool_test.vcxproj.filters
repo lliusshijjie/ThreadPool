@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\C++\ThreadPool-main\test_thread_pool.cpp">
+    <ClCompile Include="C:\Users\10424\Desktop\学习笔记\thread_pool\test_thread_pool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\C++\ThreadPool-main\thread_pool.cpp">
+    <ClCompile Include="C:\Users\10424\Desktop\学习笔记\thread_pool\thread_pool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\C++\ThreadPool-main\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\10424\Desktop\学习笔记\thread_pool\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{29720F6F-F3AA-3F5F-952A-28579973038A}</UniqueIdentifier>
+      <UniqueIdentifier>{B482ECF1-6B24-3DBA-AE5D-89E285EB044D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

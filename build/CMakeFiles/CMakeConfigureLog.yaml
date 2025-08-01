@@ -4,16 +4,70 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.19045 - AMD64
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -23,37 +77,37 @@ events:
       
       The output was:
       0
-      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
-      生成启动时间为 2025/7/31 18:50:38。
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
+      鐢熸垚鍚姩鏃堕棿涓?2025/8/1 8:31:30銆?
       
-      节点 1 上的项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
-        正在创建目录“Debug\\”。
-        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
-        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
       InitializeBuildStatus:
-        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
-        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
       
-      已成功生成。
-          0 个警告
-          0 个错误
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
       
-      已用时间 00:00:02.09
+      宸茬敤鏃堕棿 00:00:01.10
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,14 +115,627 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        D:/C++/ThreadPool-main/build/CMakeFiles/4.0.0/CompilerIdC/CompilerIdC.exe
+        C:/Users/10424/Desktop/学习笔记/thread_pool/build/CMakeFiles/4.1.0-rc3/CompilerIdC/CompilerIdC.exe
       
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/msys64/mingw32/bin/lld-link.com"
+      - "C:/msys64/mingw32/bin/lld-link.exe"
+      - "C:/msys64/mingw32/bin/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link.com"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link.exe"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/10424/.local/bin/lld-link.com"
+      - "C:/Users/10424/.local/bin/lld-link.exe"
+      - "C:/Users/10424/.local/bin/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/vcpkg-master/lld-link.com"
+      - "C:/vcpkg-master/lld-link.exe"
+      - "C:/vcpkg-master/lld-link"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/msys64/mingw32/bin/mt.com"
+      - "C:/msys64/mingw32/bin/mt.exe"
+      - "C:/msys64/mingw32/bin/mt"
+      - "C:/msys64/mingw64/bin/mt.com"
+      - "C:/msys64/mingw64/bin/mt.exe"
+      - "C:/msys64/mingw64/bin/mt"
+      - "C:/Program Files/Microsoft/Web Platform Installer/mt.com"
+      - "C:/Program Files/Microsoft/Web Platform Installer/mt.exe"
+      - "C:/Program Files/Microsoft/Web Platform Installer/mt"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt.com"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt.exe"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/mt"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/10424/.local/bin/mt.com"
+      - "C:/Users/10424/.local/bin/mt.exe"
+      - "C:/Users/10424/.local/bin/mt"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/mt"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/mt"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/mt"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/10424/AppData/Roaming/npm/mt.com"
+      - "C:/Users/10424/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/10424/AppData/Roaming/npm/mt"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/mt.com"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/mt.exe"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/mt"
+      - "C:/vcpkg-master/mt.com"
+      - "C:/vcpkg-master/mt.exe"
+      - "C:/vcpkg-master/mt"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -78,37 +745,37 @@ events:
       
       The output was:
       0
-      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
-      生成启动时间为 2025/7/31 18:50:40。
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
+      鐢熸垚鍚姩鏃堕棿涓?2025/8/1 8:31:31銆?
       
-      节点 1 上的项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
-        正在创建目录“Debug\\”。
-        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
-        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
       InitializeBuildStatus:
-        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
-        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
       
-      已成功生成。
-          0 个警告
-          0 个错误
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
       
-      已用时间 00:00:00.60
+      宸茬敤鏃堕棿 00:00:00.62
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,19 +783,392 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/C++/ThreadPool-main/build/CMakeFiles/4.0.0/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/10424/Desktop/学习笔记/thread_pool/build/CMakeFiles/4.1.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
       
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/msys64/mingw32/bin/lld-link.com"
+      - "C:/msys64/mingw32/bin/lld-link.exe"
+      - "C:/msys64/mingw32/bin/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link.com"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link.exe"
+      - "C:/Program Files/Microsoft/Web Platform Installer/lld-link"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/10424/.local/bin/lld-link.com"
+      - "C:/Users/10424/.local/bin/lld-link.exe"
+      - "C:/Users/10424/.local/bin/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/lld-link"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/10424/AppData/Roaming/npm/lld-link"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/vcpkg-master/lld-link.com"
+      - "C:/vcpkg-master/lld-link.exe"
+      - "C:/vcpkg-master/lld-link"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:573 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:546 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/msys64/mingw32/bin/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Program Files/Microsoft/Web Platform Installer/"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/10424/.local/bin/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/10424/AppData/Roaming/npm/"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/vcpkg-master/"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ThreadPool/bin/"
+      - "C:/Program Files (x86)/ThreadPool/sbin/"
+      - "C:/Program Files (x86)/ThreadPool/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/msys64/mingw32/bin/rc.com"
+      - "C:/msys64/mingw32/bin/rc.exe"
+      - "C:/msys64/mingw32/bin/rc"
+      - "C:/msys64/mingw64/bin/rc.com"
+      - "C:/msys64/mingw64/bin/rc.exe"
+      - "C:/msys64/mingw64/bin/rc"
+      - "C:/Program Files/Microsoft/Web Platform Installer/rc.com"
+      - "C:/Program Files/Microsoft/Web Platform Installer/rc.exe"
+      - "C:/Program Files/Microsoft/Web Platform Installer/rc"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc.com"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc.exe"
+      - "C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/rc"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/110/Tools/Binn/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/10424/.local/bin/rc.com"
+      - "C:/Users/10424/.local/bin/rc.exe"
+      - "C:/Users/10424/.local/bin/rc"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/Scripts/rc"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Python314/rc"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.452.9-hotspot/bin/rc"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/10424/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/10424/AppData/Roaming/npm/rc.com"
+      - "C:/Users/10424/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/10424/AppData/Roaming/npm/rc"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/rc.com"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/rc.exe"
+      - "C:/Users/10424/AppData/Local/Programs/cursor/resources/app/bin/rc"
+      - "C:/vcpkg-master/rc.com"
+      - "C:/vcpkg-master/rc.exe"
+      - "C:/vcpkg-master/rc"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/10424/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/ThreadPool/bin/rc.com"
+      - "C:/Program Files (x86)/ThreadPool/bin/rc.exe"
+      - "C:/Program Files (x86)/ThreadPool/bin/rc"
+      - "C:/Program Files (x86)/ThreadPool/sbin/rc.com"
+      - "C:/Program Files (x86)/ThreadPool/sbin/rc.exe"
+      - "C:/Program Files (x86)/ThreadPool/sbin/rc"
+      - "C:/Program Files (x86)/ThreadPool/rc.com"
+      - "C:/Program Files (x86)/ThreadPool/rc.exe"
+      - "C:/Program Files (x86)/ThreadPool/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\msys64\\mingw32\\bin"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\Program Files\\Microsoft\\Web Platform Installer\\"
+        - "C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\10424\\.local\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-8.0.452.9-hotspot\\bin"
+        - "C:\\Users\\10424\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\10424\\AppData\\Roaming\\npm"
+        - "C:\\Users\\10424\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\vcpkg-master"
+        - "c:\\Users\\10424\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThreadPool"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ThreadPool"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-tjfbba"
-      binary: "D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-tjfbba"
+      source: "C:/Users/10424/Desktop/\u5b66\u4e60\u7b14\u8bb0/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-2qj074"
+      binary: "C:/Users/10424/Desktop/\u5b66\u4e60\u7b14\u8bb0/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-2qj074"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,53 +1177,53 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-tjfbba'
+        Change Dir: 'C:/Users/10424/Desktop/学习笔记/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-2qj074'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24069.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
-        生成启动时间为 2025/7/31 18:50:41。
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_448d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/1 8:31:32銆?
         
-        节点 1 上的项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjfbba\\cmTC_24069.vcxproj”(默认目标)。
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qj074\\cmTC_448d4.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          正在创建目录“cmTC_24069.dir\\Debug\\”。
-          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
-          正在创建目录“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjfbba\\Debug\\”。
-          正在创建目录“cmTC_24069.dir\\Debug\\cmTC_24069.tlog\\”。
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_448d4.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qj074\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_448d4.dir\\Debug\\cmTC_448d4.tlog\\鈥濄€?
         InitializeBuildStatus:
-          正在创建“cmTC_24069.dir\\Debug\\cmTC_24069.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-          正在对“cmTC_24069.dir\\Debug\\cmTC_24069.tlog\\unsuccessfulbuild”执行 Touch 任务。
+          姝ｅ湪鍒涘缓鈥渃mTC_448d4.dir\\Debug\\cmTC_448d4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_448d4.dir\\Debug\\cmTC_448d4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24069.dir\\Debug\\\\" /Fd"cmTC_24069.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
-          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
-          版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24069.dir\\Debug\\\\" /Fd"cmTC_24069.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_448d4.dir\\Debug\\\\" /Fd"cmTC_448d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_448d4.dir\\Debug\\\\" /Fd"cmTC_448d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjfbba\\Debug\\cmTC_24069.exe" /INCREMENTAL /ILK:"cmTC_24069.dir\\Debug\\cmTC_24069.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-tjfbba/Debug/cmTC_24069.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-tjfbba/Debug/cmTC_24069.lib" /MACHINE:X64  /machine:x64 cmTC_24069.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_24069.vcxproj -> D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjfbba\\Debug\\cmTC_24069.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qj074\\Debug\\cmTC_448d4.exe" /INCREMENTAL /ILK:"cmTC_448d4.dir\\Debug\\cmTC_448d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/10424/Desktop/瀛︿範绗旇/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-2qj074/Debug/cmTC_448d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/10424/Desktop/瀛︿範绗旇/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-2qj074/Debug/cmTC_448d4.lib" /MACHINE:X64  /machine:x64 cmTC_448d4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_448d4.vcxproj -> C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qj074\\Debug\\cmTC_448d4.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_24069.dir\\Debug\\cmTC_24069.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_24069.dir\\Debug\\cmTC_24069.tlog\\cmTC_24069.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjfbba\\cmTC_24069.vcxproj”(默认目标)的操作。
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_448d4.dir\\Debug\\cmTC_448d4.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_448d4.dir\\Debug\\cmTC_448d4.tlog\\cmTC_448d4.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qj074\\cmTC_448d4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
-        已成功生成。
-            0 个警告
-            0 个错误
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
         
-        已用时间 00:00:00.50
+        宸茬敤鏃堕棿 00:00:00.69
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -193,25 +1233,25 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-45xn03"
-      binary: "D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-45xn03"
+      source: "C:/Users/10424/Desktop/\u5b66\u4e60\u7b14\u8bb0/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-fm7a58"
+      binary: "C:/Users/10424/Desktop/\u5b66\u4e60\u7b14\u8bb0/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-fm7a58"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,53 +1261,53 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-45xn03'
+        Change Dir: 'C:/Users/10424/Desktop/学习笔记/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-fm7a58'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9485a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
-        生成启动时间为 2025/7/31 18:50:42。
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3e729.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/1 8:31:33銆?
         
-        节点 1 上的项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45xn03\\cmTC_9485a.vcxproj”(默认目标)。
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fm7a58\\cmTC_3e729.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          正在创建目录“cmTC_9485a.dir\\Debug\\”。
-          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
-          正在创建目录“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45xn03\\Debug\\”。
-          正在创建目录“cmTC_9485a.dir\\Debug\\cmTC_9485a.tlog\\”。
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3e729.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fm7a58\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3e729.dir\\Debug\\cmTC_3e729.tlog\\鈥濄€?
         InitializeBuildStatus:
-          正在创建“cmTC_9485a.dir\\Debug\\cmTC_9485a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-          正在对“cmTC_9485a.dir\\Debug\\cmTC_9485a.tlog\\unsuccessfulbuild”执行 Touch 任务。
+          姝ｅ湪鍒涘缓鈥渃mTC_3e729.dir\\Debug\\cmTC_3e729.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e729.dir\\Debug\\cmTC_3e729.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9485a.dir\\Debug\\\\" /Fd"cmTC_9485a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
-          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
-          版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9485a.dir\\Debug\\\\" /Fd"cmTC_9485a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_3e729.dir\\Debug\\\\" /Fd"cmTC_3e729.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_3e729.dir\\Debug\\\\" /Fd"cmTC_3e729.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45xn03\\Debug\\cmTC_9485a.exe" /INCREMENTAL /ILK:"cmTC_9485a.dir\\Debug\\cmTC_9485a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-45xn03/Debug/cmTC_9485a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++/ThreadPool-main/build/CMakeFiles/CMakeScratch/TryCompile-45xn03/Debug/cmTC_9485a.lib" /MACHINE:X64  /machine:x64 cmTC_9485a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_9485a.vcxproj -> D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45xn03\\Debug\\cmTC_9485a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fm7a58\\Debug\\cmTC_3e729.exe" /INCREMENTAL /ILK:"cmTC_3e729.dir\\Debug\\cmTC_3e729.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/10424/Desktop/瀛︿範绗旇/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-fm7a58/Debug/cmTC_3e729.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/10424/Desktop/瀛︿範绗旇/thread_pool/build/CMakeFiles/CMakeScratch/TryCompile-fm7a58/Debug/cmTC_3e729.lib" /MACHINE:X64  /machine:x64 cmTC_3e729.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3e729.vcxproj -> C:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fm7a58\\Debug\\cmTC_3e729.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_9485a.dir\\Debug\\cmTC_9485a.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_9485a.dir\\Debug\\cmTC_9485a.tlog\\cmTC_9485a.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\C++\\ThreadPool-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-45xn03\\cmTC_9485a.vcxproj”(默认目标)的操作。
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3e729.dir\\Debug\\cmTC_3e729.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e729.dir\\Debug\\cmTC_3e729.tlog\\cmTC_3e729.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\10424\\Desktop\\瀛︿範绗旇\\thread_pool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fm7a58\\cmTC_3e729.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
-        已成功生成。
-            0 个警告
-            0 个错误
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
         
-        已用时间 00:00:00.51
+        宸茬敤鏃堕棿 00:00:00.78
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -277,12 +1317,12 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
-      - "D:/Cmake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

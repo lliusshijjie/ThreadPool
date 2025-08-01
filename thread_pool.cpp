@@ -2,6 +2,7 @@
 #include <functional>
 #include <thread>
 #include <iostream>
+#include <chrono>
 
 const size_t TASK_MAX_SIZE = 1024;
 const size_t THREAD_MAX_SIZE = 10;
