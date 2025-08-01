@@ -172,7 +172,7 @@ public:
     std::shared_ptr<Result> submitTask(std::shared_ptr<Task> task);
 
     // 启动线程池
-    void start(size_t initialThreadSize = 4);
+    void start(size_t initialThreadSize = std::thread::hardware_concurrency());
 
 private:
     // 线程函数

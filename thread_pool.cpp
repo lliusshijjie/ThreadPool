@@ -20,13 +20,20 @@ ThreadPool::ThreadPool() : initialThreadSize(0), taskSize(0), totalThreadSize(0)
                             {}
 
 ThreadPool::~ThreadPool() {
+    std::cout << "ThreadPool destructor called. Current thread count: " << threads.size() << std::endl;
     isPoolRunning = false;
     notEmpty.notify_all(); // 通知所有线程退出
-    // 停止所有线程
+    notFull.notify_all(); // 通知所有线程退出
+    
+    // 给线程一些时间来正常退出
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    
+    // 等待所有线程结束
     std::unique_lock<std::mutex> lock(taskQueueMutex);
     exitThreadPool.wait(lock, [this]() {
-        return taskQueue.empty();
+        return threads.empty();
     });
+    std::cout << "All threads have exited. Final thread count: " << threads.size() << std::endl;
 }
 
 bool ThreadPool::checkPoolRunning() const {
@@ -128,9 +135,12 @@ void ThreadPool::threadFunc(int threadId) {
                         auto now = std::chrono::high_resolution_clock::now();
                         auto duration = std::chrono::duration_cast<std::chrono::seconds>(now - lastTime);
                         if (duration.count() >= THREAD_MAX_IDLE_TIME && totalThreadSize > initialThreadSize) {
-                            threads.erase(threadId);
-                            totalThreadSize--;
-                            idleThreadSize--;
+                            auto it = threads.find(threadId);
+                            if (it != threads.end()) {
+                                threads.erase(it);
+                                totalThreadSize--;
+                                idleThreadSize--;
+                            }                      
                             std::cout << "Thread " << threadId << " recycled due to idle timeout" << std::endl;
                             return;
                         }
@@ -144,10 +154,8 @@ void ThreadPool::threadFunc(int threadId) {
                 }
 
                 if (!isPoolRunning) {
-                    threads.erase(threadId);
-                    exitThreadPool.notify_all(); // 通知主线程退出
-                    return;
-                } 
+                    break; // 跳出while循环，执行最后的清理代码
+                }
 
             }
 
@@ -175,7 +183,10 @@ void ThreadPool::threadFunc(int threadId) {
         lastTime = std::chrono::high_resolution_clock::now(); // 更新时间
     }
 
-    threads.erase(threadId); // 从线程列表中移除当前线程
+    auto it = threads.find(threadId);
+    if (it != threads.end()) {
+        threads.erase(it);
+    }
     std::cout << "Thread " << threadId << " exiting." << std::endl;
     exitThreadPool.notify_all(); // 通知主线程退出
 }
