@@ -186,7 +186,7 @@ private:
     size_t initialThreadSize;        // 初始线程数量
     std::atomic<int> idleThreadSize; // 表示当前线程池中空闲线程的数量
     std::atomic<int> totalThreadSize; // 表示当前线程池中线程的总数量
-
+    
     std::queue<std::shared_ptr<Task>> taskQueue; // 任务队列
     std::atomic<size_t> taskSize; // 任务计数器
     size_t taskQueueLimit; // 任务队列大小上限
@@ -195,7 +195,7 @@ private:
     std::mutex taskQueueMutex; // 任务队列互斥锁
     std::condition_variable notEmpty; // 任务队列非空条件变量
     std::condition_variable notFull; // 任务队列非满条件变量
-
+    std::condition_variable exitThreadPool; // 退出线程池条件变量
     PoolMode mode; // 当前线程池模式
     std::atomic<bool> isPoolRunning; // 表示当前线程池的启动状态 
 };
